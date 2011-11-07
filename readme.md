@@ -21,7 +21,8 @@ Example of use:
 	back = -120
 	front = 100
 	from smv import *
-	startOver()
+        help()
+        startOver()
 	zoom(150)
 	moveToSlice(back)
 	saveSlicePics(front - back, 200)
