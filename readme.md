@@ -8,25 +8,26 @@ Installation instructions:
 * open Slicer3
 * open Python console
 * add the location of the smv.py script to the Python Path:
+
+type these commands:
+
     import sys
 	sys.path.append('/home/tomb/exampleFolderWhereIDownloadedTheScriptTo/')
+
 * Now type commands in this Python terminal window
 
-* Example of use
+Example of use:
 
-```
-back = -120
-front = 100
-from smv import *
-startOver()
-zoom(150)
-moveToSlice(back)
-saveSlicePics(front - back, 200)
-saveSlicePics(spot - front, 100)
-saveRotatePics(45, 0, 80)
-saveZoomAndPanPics(20, 30, 0, 150, 200)
-```
-
+	back = -120
+	front = 100
+	from smv import *
+	startOver()
+	zoom(150)
+	moveToSlice(back)
+	saveSlicePics(front - back, 200)
+	saveSlicePics(spot - front, 100)
+	saveRotatePics(45, 0, 80)
+	saveZoomAndPanPics(20, 30, 0, 150, 200)
 
 Dev thoughts / todos: 
 
