@@ -12,7 +12,8 @@ Installation instructions:
 	sys.path.append('/home/tomb/exampleFolderWhereIDownloadedTheScriptTo/')
 * Now type commands in this Python terminal window
 
-* Example of use:
+* Example of use
+
 
     back = -120
     front = 100
